@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+       
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="parallax.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            initializeParallax(document.querySelector('.viewport'));
+        });
+    </script>
+</head>
+
+<body>
+    <div class="viewport">
+        <div>
+
+            <div class="parallax header" style="background-image: url('stars.jpg');" parallax="0.3"></div>
+            <div class="scene header">
+                <h1>Gazing into the stars&nbsp;&nbsp;🐱</h1>
+                <h2>When cats use
+                    <code>requestIdleCallback</code>
+                </h2>
+            </div>
+            <div class="scene solid star">
+                <p>
+                    What’s this? This is a parallax scroller. But not just yet another parallax scroller, it’s one that doesn’t rely on JavaScript
+                    for the animation, that works on both desktop and mobile and has 60fps while scrolling. This was a lot
+                    harder than we originally anticipated, so we wrote up what we did for you to read!
+                </p>
+                <p>
+                    <a href="https://developers.google.com/web/updates/2016/12/performant-parallaxing">
+                        <img src="images/screengrab.jpg" style="width: 10vw; float: left; margin-right: 2vw;"> Read the article on developers.google.com!</a>
+                </p>
+            </div>
+
+            <div class="parallax" style="background-image: url('sea.jpg');" parallax></div>
+            <div class="scene woods">
+                <h1>Gazing into the sea&nbsp;&nbsp;🐳</h1>
+                <h2>Some people don’t have
+                    <code>class</code>
+                </h2>
+            </div>
+            <div class="scene solid woods" parallax-cover>
+                <p>
+                    Lorem ipsum dolor sit amet, et natum mucius quo, nam zril offendit ei. Cu mea amet paulo consequat. Eam nonumy integre malorum
+                    ei. Fabulas feugait detracto cu usu. Ad brute moderatius sit, ne mel ullum saperet.
+                </p>
+                <p>
+                    Inermis petentium cotidieque sed cu. No duo alienum salutandi. Exerci evertitur vix ea, mei audire conclusionemque an. His
+                    nisl graece euismod ad.
+                </p>
+            </div>
+
+            <div class="parallax" style="background-image: url('sunset.jpg');" parallax></div>
+            <div class="scene sunset">
+                <h1>Gazing into the sunset&nbsp;&nbsp;🌞</h1>
+                <h2>
+                    <code>!important</code> is not a performance primitive</h2>
+            </div>
+
+            <div class="box">
+
+                <h2>
+                    just a demo box
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
