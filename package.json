@@ -1,0 +1,23 @@
+{
+  "name": "webheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parallax.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/correasebastian/parralax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/correasebastian/parralax/issues"
+  },
+  "homepage": "https://github.com/correasebastian/parralax#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
